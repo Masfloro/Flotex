@@ -18,10 +18,27 @@ public class HomeController : Controller
         return View();
     }
 
-    public IActionResult Privacy()
+    public IActionResult Nosotros(){
+
+        return View();
+    }
+
+    public IActionResult Catalogo(){
+
+        return View();
+    }
+
+    public IActionResult Contactenos(){
+
+        return View();
+    }
+
+    public IActionResult Login()
     {
         return View();
     }
+
+
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()

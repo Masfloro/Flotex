@@ -132,37 +132,6 @@
         font-size: 24px;
     }
 
-    .f_social_icon a {
-        width: 46px;
-        height: 46px;
-        border-radius: 50%;
-        font-size: 14px;
-        line-height: 45px;
-        color: #858da8;
-        display: inline-block;
-        background: #ebeef5;
-        text-align: center;
-        -webkit-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        transition: all 0.2s linear;
-    }
-
-    .ti-facebook:before {
-        content: "\e741";
-    }
-
-    .ti-twitter-alt:before {
-        content: "\e74b";
-    }
-
-    .ti-vimeo-alt:before {
-        content: "\e74a";
-    }
-
-    .ti-pinterest:before {
-        content: "\e731";
-    }
-
     .btn_get_two {
         -webkit-box-shadow: none;
         box-shadow: none;
@@ -256,25 +225,19 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="nvbCollapse">
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ms-auto">
                         <li class="nav-item pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-home fa-fw mr-1"></i>Anasayfa</a>
+                            <a class="nav-link" asp-area="" asp-action="Nosotros" asp-controller="Home"><i class="fa fa-home fa-fw mr-1"></i>Nosotros</a>
                         </li>
                         <li class="nav-item active pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-th-list fa-fw mr-1"></i>Blog</a>
+                            <a class="nav-link" asp-area="" asp-action="Catalogo" asp-controller="Home"><i class="fa fa-th-list fa-fw mr-1"></i>Nuestras Telas</a>
                         </li>
                         <li class="nav-item pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-info-circle fa-fw mr-1"></i>Hakkzda</a>
+                            <a class="nav-link" asp-area="" asp-action="Contactenos" asp-controller="Home"><i class="fa fa-info-circle fa-fw mr-1"></i>Contactenos</a>
                         </li>
                         <li class="nav-item pl-1">
-                            <a class="nav-link" href="#"><i
-                                    class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>İletişim</a>
-                        </li>
-                        <li class="nav-item pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-user-plus fa-fw mr-1"></i>Kayt Ol</a>
-                        </li>
-                        <li class="nav-item pl-1">
-                            <a class="nav-link" href="#"><i class="fa fa-sign-in fa-fw mr-1"></i>Oturum Aç</a>
+                            <a class="nav-link" asp-area="" asp-action="Login" asp-controller="Home" ><i class="fa fa-phone fa-fw fa-rotate-180 mr-1"></i>Inicio
+                                Sesion</a>
                         </li>
                     </ul>
                 </div>
