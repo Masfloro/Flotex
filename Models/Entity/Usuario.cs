@@ -26,10 +26,16 @@ namespace Flotex.Models.Entity
         public String Correo{ get; set; }
 
         [Column("Contrasena")]
-        public String Contasena{ get; set; }
-        
+        public String Contrasena{ get; set; }
+
+        [Column("Tienda")]
+        public String Tienda{ get; set; }
+
+        //ALMACENERO,ADMINISTRADOR, VENDEDOR
         [Column("Rol")]
         public String Rol{ get; set; }
+
+
 
     }
 }
